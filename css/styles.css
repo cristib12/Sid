@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -25,17 +26,24 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 p {
    color: #40514E;
    font-weight: bold;
+   line-height: 2;
 }
 
 hr {
   color: #EAF6F6;
   border-style: dotted none none none;
-  border-width: 10px;
+  border-width: 7px;
   width: 7%;
 }
 .top-containter {
@@ -60,14 +68,14 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .skills {
@@ -78,7 +86,6 @@ hr {
   width: 50%;
   margin: 100px auto 200px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .chillin-img {
@@ -95,7 +102,7 @@ hr {
 
 .contact-me {
   width: 35%;
-  margin: 50px auto;
+  margin: 70px auto;
 }
 
 .btnref {
